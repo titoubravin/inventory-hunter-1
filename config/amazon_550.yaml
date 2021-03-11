@@ -1,0 +1,7 @@
+---
+refresh_interval: 0 # seconds
+max_price: 550 # dollars/euros/etc
+urls:
+  - https://www.amazon.com/gp/product/B08WGTL4CW#aod # ASUS ROG Strix NVIDIA RTX3060 
+  - https://www.amazon.com/gp/product/B08P3XJLJJ#aod # ZOTAC 3060TI
+...
