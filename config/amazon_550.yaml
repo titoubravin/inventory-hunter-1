@@ -4,4 +4,6 @@ max_price: 550 # dollars/euros/etc
 urls:
   - https://www.amazon.com/gp/product/B08WGTL4CW#aod # ASUS ROG Strix NVIDIA RTX3060 
   - https://www.amazon.com/gp/product/B08P3XJLJJ#aod # ZOTAC 3060TI
+  - https://www.amazon.com/gp/product/B08W8DGK3X#aod # ZOTAC Gaming RTX 3060 Twin Edge 499
+  - https://www.amazon.com/gp/product/B08WHJPBFX#aod # ASUS TUF Gaming NVIDIA GeForce RTX 3060 OC 510
 ...
