@@ -36,8 +36,8 @@ class DiscordAlerter(Alerter):
             "embeds": [
                 {"title": kwargs.get("subject"), "description": content, "color": 5832569}
             ],
-            "username": "Inventory Hunter",
-            "avatar_url": "https://styles.redditmedia.com/t5_2th52/styles/communityIcon_4411rfa4elr41.png?width=256&s=bba3f4384cbcb8590f768f4446d98f7b2017beb0",
+            "username": "The Monitoring Bot",
+            "avatar_url": "https://pbs.twimg.com/profile_images/1358670048626413568/B8n0ObXp_400x400.jpg",
         }
         try:
             logging.debug(f"Discord Webhook URL: {self.webhook_url}")
