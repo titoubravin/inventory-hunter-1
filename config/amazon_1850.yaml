@@ -3,7 +3,7 @@ refresh_interval: 0 # seconds
 max_price: 1850 # dollars/euros/etc
 urls:
   - https://www.amazon.com/gp/product/B08J6GMWCQ#aod # ASUS ROG STRIX NVIDIA GeForce RTX 3090 1849
-  - https://www.amazon.com/gp/product/B08J5F3G18#aod # EVGA GeForce RTX 3090 FTW3
+  - https://www.amazon.com/gp/product/B08J5F3G18#aod # EVGA GeForce RTX 3090 FTW3 1870
   - https://www.amazon.com/gp/product/B08HJRF2CN#aod # Gigabyte GeForce RTX 3090 GAMING OC
   - https://www.amazon.com/gp/product/B08HR6ZBYJ#aod # NVIDIA GeForce RTX 3090 Founders Edition 1499
   - https://www.amazon.com/gp/product/B08Q2R71CS#aod # PowerColor Red Devil AMD Radeon RX 6900 XT 1530
