@@ -1,0 +1,6 @@
+---
+refresh_interval: 0 # seconds
+max_price: 30 # dollars/euros/etc
+urls:
+  - https://www.amazon.com/gp/product/B08FC6Y4VG#aod
+...
