@@ -22,7 +22,7 @@ class AmazonScrapeResult(ScrapeResult):
             alert_subject = f'In Stock for {price_str}'
 
         # check for add to cart button
-        tag = self.soup.body.select_one('div[@id='aod-offer']')
+        tag = self.soup.body.select_one('form.aod-atc-form-header-desktop a-spacing-none')
         if tag and 'Add to Cart' in tag.text.lower():
             self.alert_subject = alert_subject
             self.alert_content = f'{alert_content.strip()}\n{self.url}'
