@@ -10,8 +10,6 @@ class AmazonScrapeResult(ScrapeResult):
         tag = self.soup.body.select_one('h1#title > span#productTitle')
         if tag:
             alert_content += tag.text.strip() + '\n'
-        else:
-            self.logger.warning(f'missing title: {self.url}')
 
         # get listed price
         tag = self.soup.body.select_one('#aod-price-1 > span > span.a-offscreen')
@@ -20,8 +18,6 @@ class AmazonScrapeResult(ScrapeResult):
         price_str = self.set_price(tag)
         if price_str:
             alert_subject = f'In Stock for {price_str}'
-        else:
-            self.logger.warning(f'missing price: {self.url}')
 
         # check for add to cart button
         tag = self.soup.body.select_one('#aod-offer-shipsFrom > div > div > div.a-fixed-left-grid-col.aod-padding-right-10.a-col-left > span')
