@@ -10,6 +10,8 @@ class AmazonScrapeResult(ScrapeResult):
         tag = self.soup.body.select_one('h1#title > span#productTitle')
         if tag:
             alert_content += tag.text.strip() + '\n'
+        else:
+            self.logger.warning(f'missing title: {self.url}')
 
         # get listed price
         tag = self.soup.body.select_one('#aod-price-1 > span > span.a-offscreen')
