@@ -20,6 +20,14 @@ class AmazonScrapeResult(ScrapeResult):
         price_str = self.set_price(tag)
         if price_str:
             alert_subject = f'In Stock for {price_str}'
+        else:
+            self.logger.warning(f'missing price: {self.url}')
+            
+        # check for add to cart button
+        tag = self.soup.body.select_one('#aod-offer-shipsFrom > div > div > div.a-fixed-left-grid-col.aod-padding-right-10.a-col-left > span')
+        if tag and 'Sold by' in str(tag).lower():
+            self.alert_subject = alert_subject
+            self.alert_content = f'{alert_content.strip()}\n{self.url}'
 
 @ScraperFactory.register
 class AmazonScraper(Scraper):
