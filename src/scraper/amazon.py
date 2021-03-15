@@ -16,7 +16,7 @@ class AmazonScrapeResult(ScrapeResult):
         # get listed price
         tag = self.soup.body.select_one('#aod-price-0 > span > span.a-offscreen')
         if not tag:
-        tag = self.soup.body.select_one('#aod-price-1 > span > span.a-offscreen')
+            tag = self.soup.body.select_one('#aod-price-1 > span > span.a-offscreen')
         else:
             self.logger.warning(f'missing price: {self.url}')
         price_str = self.set_price(tag)
