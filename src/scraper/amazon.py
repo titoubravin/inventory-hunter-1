@@ -18,8 +18,8 @@ class AmazonScrapeResult(ScrapeResult):
         price_str = self.set_price(tag)
         if price_str:
             alert_subject = f'In Stock for {price_str}'
-        Else:
-            tag = self.soup.body.select_one('#aod-price-1 > span > span.a-offscreen')
+        else:
+        tag = self.soup.body.select_one('#aod-price-1 > span > span.a-offscreen')
         price_str = self.set_price(tag)
         if price_str:
             alert_subject = f'In Stock for {price_str}'
