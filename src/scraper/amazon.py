@@ -18,7 +18,7 @@ class AmazonScrapeResult(ScrapeResult):
         if not tag:
             tag = self.soup.body.select_one('#aod-price-0 > span > span.a-offscreen')
         else:
-              self.logger.warning(f'missing price: {self.url}')
+            self.logger.warning(f'missing price: {self.url}')
         price_str = self.set_price(tag)
         if price_str:
             alert_subject = f'In Stock for {price_str}'
