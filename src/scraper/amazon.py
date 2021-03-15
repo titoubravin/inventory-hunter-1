@@ -22,12 +22,10 @@ class AmazonScrapeResult(ScrapeResult):
             alert_subject = f'In Stock for {price_str}'
             
         # check for add to cart button
-        tag = self.soup.body.select_one('#a-autoid-2')
+        tag = self.soup.body.select_one('#a-autoid-2 > span > input')
         if tag:
             self.alert_subject = alert_subject
             self.alert_content = f'{alert_content.strip()}\n{self.url}'
-        else:
-            self.logger.warning(f'missing availability: {self.url}')
 
 @ScraperFactory.register
 class AmazonScraper(Scraper):
