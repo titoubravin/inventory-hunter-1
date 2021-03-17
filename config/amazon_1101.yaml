@@ -1,0 +1,9 @@
+---
+refresh_interval: 1 # seconds
+max_price: 1101 # dollars/euros/etc
+urls:
+  - https://www.amazon.com/gp/product/B08T9J1J28#aod # PowerColor Red Devil AMD Radeon RX 6800 1000
+  - https://www.amazon.com/gp/product/B08KJ3VKLQ#aod # Gigabyte AORUS GeForce RTX 3080 Master 10G 1000
+  - https://www.amazon.com/gp/product/B08NXYBVDB#aod # Sapphire 11305-02-20G Pulse AMD Radeon RX 6800 1100
+  - https://www.amazon.com/gp/product/B08NXXT7WN#aod # Sapphire 11304-02-20G Nitro+ AMD Radeon RX 6800 XT. 1101
+...

@@ -1,0 +1,9 @@
+---
+refresh_interval: 1 # seconds
+max_price: 2300 # dollars/euros/etc
+urls:
+  - https://www.amazon.com/gp/product/B08HBVX53D#aod # PNY GeForce RTX 3090 24GB XLR8 Gaming Uprising EPIC-X 2300
+  - https://www.amazon.com/gp/product/B08HRBW6VB#aod # MSI Gaming RTX 3090 24GB GDRR6X 2200
+  - https://www.amazon.com/gp/product/B08HBQWBHH#aod # PNY GeForce RTX 3090 24GB REVEL 2200
+  - https://www.amazon.com/gp/product/B08HR9D2JS#aod # MSI Gaming GeForce RTX 3090 2150
+...

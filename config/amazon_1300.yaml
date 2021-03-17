@@ -1,0 +1,6 @@
+---
+refresh_interval: 1 # seconds
+max_price: 1300 # dollars/euros/etc
+urls:
+  - https://www.amazon.com/gp/product/B08Q3292PD#aod # GIGABYTE Radeon RX 6900 XT 1200
+...

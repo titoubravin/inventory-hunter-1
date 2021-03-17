@@ -1,0 +1,11 @@
+---
+refresh_interval: 1 # seconds
+max_price: 950 # dollars/euros/etc
+urls:
+  - https://www.amazon.com/gp/product/B08HR5SXPS#aod # MSI Gaming  RTX 3080 10GB VENTUS 3X 
+  - https://www.amazon.com/gp/product/B0815Y8J9N#aod # AMD Ryzen 9 5950X  900
+  - https://www.amazon.com/gp/product/B08P2B5XXD#aod # PowerColor Fighter AMD Radeon RX 6800 950
+  - https://www.amazon.com/gp/product/B08NXZSPMY#aod # Sapphire 11305-01-20G Nitro+ AMD Radeon RX 6800 950
+  - https://www.amazon.com/gp/product/B08P3YT3MY#aod # ASUS TUF Gaming AMD Radeon RX 6800 825
+
+...

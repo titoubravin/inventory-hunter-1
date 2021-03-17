@@ -1,0 +1,7 @@
+---
+refresh_interval: 1 # seconds
+max_price: 2100 # dollars/euros/etc
+urls:
+  - https://www.amazon.com/gp/product/B08HJQ182D#aod # ZOTAC GAMING GeForce RTX 3090 Trinity 24GB 2100
+  - https://www.amazon.com/gp/product/B08R5D3374#aod # GIGABYTE AORUS RTX 3090 Xtreme WATERFORCE 2100
+...
