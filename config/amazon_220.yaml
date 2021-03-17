@@ -1,0 +1,6 @@
+---
+refresh_interval: 1 # seconds
+max_price: 220 # dollars/euros/etc
+urls:
+  - https://www.amazon.com/gp/product/B07JZLGPCB#aod # ASUS ROG Thor 850 220
+...

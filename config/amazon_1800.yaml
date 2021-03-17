@@ -1,0 +1,7 @@
+---
+refresh_interval: 1 # seconds
+max_price: 1800 # dollars/euros/etc
+urls:
+  - https://www.amazon.com/gp/product/B083GS45CR#aod # GIGABYTE GeForce RTX 3090 Vision OC 24G Graphics Card, 3X WINDFORCE 1800
+  - https://www.amazon.com/gp/product/B08R5WDMZC#aod # ASUS EKWB GeForce RTX 3090 24GB 1800
+...

@@ -1,0 +1,11 @@
+---
+refresh_interval: 1 # seconds
+max_price: 950 # dollars/euros/etc
+urls:
+  - https://www.amazon.com/dp/B08L8HPKR6
+  - https://www.amazon.com/gp/product/B08KWPDXJZ#aod # MSI Gaming  RTX 3070 8GB 800
+  - https://www.amazon.com/gp/product/B08HR3Y5GQ#aod # EVGA 10G-P5-3897-KR RTX 3080 FTW3 879
+  - https://www.amazon.com/gp/product/B08HJTH61J#aod # GIGABYTE GeForce RTX 3080 OC 839
+  - https://www.amazon.com/gp/product/B08J6F174Z#aod # ASUS ROG STRIX NVIDIA RTX 3080 OC 929
+  - https://www.amazon.com/gp/product/B08QW8BKDV#aod # MSI Gaming RTX 3080 10GB GDRR6X 760
+...
